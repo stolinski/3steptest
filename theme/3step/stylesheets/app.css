@@ -1,0 +1,21 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
+
+p, li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
+
+/*Top Bar*/
+.top-bar {
+  background: #eee;
+  color: #666;
+  border-bottom: solid 1px #cccccc; }
+  .top-bar a {
+    color: #666; }
+
+/*Main Area*/
+.site-title {
+  text-transform: uppercase;
+  text-align: center; }
