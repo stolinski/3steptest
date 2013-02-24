@@ -32,8 +32,10 @@ class __TwigTemplate_3e0dacd8a82536227bd66543bc53168b extends Twig_Template
         if (isset($context["app"])) { $_app_ = $context["app"]; } else { $_app_ = null; }
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($_app_, "config"), "general"), "sitename"), "html", null, true);
         echo "</h1>
-    <a class=\"download\" id=\"donationdl\">Download with donation!</a>
-    <a class=\"download\" id=\"freedl\">Download for free!</a>
+        <div class=\"downloads\">
+            <a class=\"btn donationdl\" id=\"donationdl\">Download<br /><span>with donation</span></a>
+            <a class=\"btn freedl\" id=\"freedl\">Download<br /><span>for free</span></a>
+        </div>
 
     </div>
 
@@ -44,7 +46,7 @@ class __TwigTemplate_3e0dacd8a82536227bd66543bc53168b extends Twig_Template
 
 
 ";
-        // line 23
+        // line 25
         $this->env->loadTemplate("_footer.twig")->display($context);
     }
 
@@ -60,6 +62,6 @@ class __TwigTemplate_3e0dacd8a82536227bd66543bc53168b extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  48 => 23,  32 => 11,  21 => 2,  19 => 1,);
+        return array (  50 => 25,  32 => 11,  21 => 2,  19 => 1,);
     }
 }

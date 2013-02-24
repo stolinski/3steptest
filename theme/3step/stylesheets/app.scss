@@ -6,7 +6,7 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -33,3 +33,42 @@ p, li {
   text-transform: uppercase;
   text-align: center;
 }
+
+
+.downloads {
+  text-align: center;
+}
+.btn {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  border-radius: 6px;
+  padding: 20px 20px 15px;
+  line-height: 25px;
+  font-weight: 700;
+  margin: 10px 20px;
+  cursor: pointer;
+  span {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: none;
+  }
+}
+.donationdl {
+  border-bottom: 1px solid #666;
+  border-top: 1px solid #333;
+  color: white;
+  background: #333;
+  @include box-shadow(0px 4px 0px #222, 0px 9px 36px rgba(white, 0.3) inset);
+}
+.freedl {
+  border: 1px solid #ccc;
+  color: #333;
+  background: #eee;
+  @include box-shadow(0px 4px 0 #999, 0px 9px 36px rgba(white, 0.3) inset);
+}
+
+

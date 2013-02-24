@@ -45,17 +45,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/javascripts\/modernizr.foundation.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/modernizr.foundation.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/modernizr.foundation-ck.js",
-      "fileType" : 64
-    },
     "\/images\/header_3.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -66,6 +55,17 @@
       "outputAbbreviatedPath" : "\/images\/header_3.jpg",
       "initialSize" : 123143,
       "fileType" : 4096
+    },
+    "\/javascripts\/modernizr.foundation.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/modernizr.foundation.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/modernizr.foundation-ck.js",
+      "fileType" : 64
     },
     "\/javascripts\/jquery-1.9.1.min.js" : {
       "ignoreWasSetByUser" : 0,
