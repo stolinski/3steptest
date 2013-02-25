@@ -101,12 +101,17 @@ class __TwigTemplate_ca3f0026fed655ace437a7c021e64899 extends Twig_Template
         if (isset($context["paths"])) { $_paths_ = $context["paths"]; } else { $_paths_ = null; }
         echo twig_escape_filter($this->env, $this->getAttribute($_paths_, "theme"), "html", null, true);
         echo "javascripts/app.js\"></script>
+    <script src=\"";
+        // line 35
+        if (isset($context["paths"])) { $_paths_ = $context["paths"]; } else { $_paths_ = null; }
+        echo twig_escape_filter($this->env, $this->getAttribute($_paths_, "theme"), "html", null, true);
+        echo "javascripts/script.js\"></script>
 
 </head>
 <body>
 
 ";
-        // line 43
+        // line 44
         echo "
 <div class=\"container\">
 
@@ -115,7 +120,7 @@ class __TwigTemplate_ca3f0026fed655ace437a7c021e64899 extends Twig_Template
     <nav class=\"top-bar\">
         <ul>
             <li class=\"name\"><h1><a href=\"";
-        // line 50
+        // line 51
         if (isset($context["paths"])) { $_paths_ = $context["paths"]; } else { $_paths_ = null; }
         echo twig_escape_filter($this->env, $this->getAttribute($_paths_, "root"), "html", null, true);
         echo "\">";
@@ -129,7 +134,7 @@ class __TwigTemplate_ca3f0026fed655ace437a7c021e64899 extends Twig_Template
             <ul class=\"right\">
 
                 ";
-        // line 60
+        // line 61
         echo "                ";
         echo twig_escape_filter($this->env, $this->env->getExtension('Bolt')->menu($this->env), "html", null, true);
         echo "
@@ -157,6 +162,6 @@ class __TwigTemplate_ca3f0026fed655ace437a7c021e64899 extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  133 => 60,  119 => 50,  110 => 43,  101 => 34,  96 => 33,  89 => 31,  83 => 27,  78 => 26,  73 => 25,  67 => 23,  62 => 22,  59 => 21,  54 => 16,  46 => 15,  40 => 14,  33 => 13,  30 => 12,  19 => 1,);
+        return array (  138 => 61,  124 => 51,  115 => 44,  106 => 35,  101 => 34,  96 => 33,  89 => 31,  83 => 27,  78 => 26,  73 => 25,  67 => 23,  62 => 22,  59 => 21,  54 => 16,  46 => 15,  40 => 14,  33 => 13,  30 => 12,  58 => 33,  32 => 11,  21 => 2,  19 => 1,);
     }
 }

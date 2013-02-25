@@ -2,6 +2,15 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
+    "\/stylesheets\/app.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylesheets\/app.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/javascripts\/jquery.foundation.topbar.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -12,15 +21,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/javascripts\/jquery.foundation.topbar-ck.js",
       "fileType" : 64
-    },
-    "\/stylesheets\/app.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/app.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/javascripts\/app.js" : {
       "ignoreWasSetByUser" : 0,
@@ -56,17 +56,6 @@
       "initialSize" : 123143,
       "fileType" : 4096
     },
-    "\/javascripts\/modernizr.foundation.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/modernizr.foundation.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/modernizr.foundation-ck.js",
-      "fileType" : 64
-    },
     "\/javascripts\/jquery-1.9.1.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -76,6 +65,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/javascripts\/jquery-1.9.1.min-ck.js",
+      "fileType" : 64
+    },
+    "\/javascripts\/modernizr.foundation.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/modernizr.foundation.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/modernizr.foundation-ck.js",
       "fileType" : 64
     },
     "\/stylesheets\/foundation.min.css" : {
