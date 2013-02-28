@@ -1,1 +1,11 @@
 @import 'bourbon';
+
+
+@mixin transition($sec: 0.2s) {
+-webkit-transition: all $sec ease-out;
+   -moz-transition: all $sec ease-out;
+    -ms-transition: all $sec ease-out;
+     -o-transition: all $sec ease-out;
+        transition: all $sec ease-out;
+}
+

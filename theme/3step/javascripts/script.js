@@ -5,12 +5,24 @@ $(document).ready(function() {
 		var $end = "&currency_code=USD&no_note=0&cn=Add%20special%20instructions%20to%20the%20seller%3a&no_shipping=2&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted";
 		return $url + amount.toString() + $end;
 	}
-
-	function disableTxt() {
-	    document.getElementById("other").disabled = true;
+	function findChecked() {
+		return 45;
 	}
-	function enableTxt() {
-	    document.getElementById("other").disabled = false;
-	}
+	$('#donationdl').click(function() {
+		$('.paypal-form').slideToggle();
+	});
+	$('#donate').click(function() {
+		var $val = $('.donation-fields input:checked').val();
+		console.log($val);
+		var $fullUrl = makeFullUrl($val)
+		window.location.assign($fullUrl);
+	});
 	console.log(makeFullUrl(15));
 });
+
+function disableTxt() {
+    document.getElementById("other").disabled = true;
+}
+function enableTxt() {
+    document.getElementById("other").disabled = false;
+}
