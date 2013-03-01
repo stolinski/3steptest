@@ -34,6 +34,7 @@ class __TwigTemplate_3e0dacd8a82536227bd66543bc53168b extends Twig_Template
         echo "</h1>
         <div class=\"downloads\">
             <a href=\"#\" class=\"btn donationdl\" id=\"donationdl\">Download<br /><span>with donation</span></a>
+            <span class=\"or\"><em>or</em></span>
             <a herf=\"#\" class=\"btn freedl\" id=\"freedl\">Download<br /><span>for free</span></a>
         </div>
         <div class=\"paypal-form\">
@@ -54,7 +55,7 @@ class __TwigTemplate_3e0dacd8a82536227bd66543bc53168b extends Twig_Template
                 <div class=\"value\">
                      <input value=\"5\" type=\"radio\" name=\"r\" id=\"r3\" onchange=\"enableTxt()\" /><input placeholder=\"Enter Custom Amount\" type=\"text\" name=\"r\" id=\"other\" disabled=\"disabled\" />
                 </div>
-                    <a id=\"donate\" href=\"#\">Donate</a>
+                    <a class=\"btn donationdl\" id=\"donate\" href=\"#\">Donate &amp; Download</a>
             </div>
         </div>
     </div>
@@ -66,7 +67,7 @@ class __TwigTemplate_3e0dacd8a82536227bd66543bc53168b extends Twig_Template
 
 
 ";
-        // line 45
+        // line 46
         $this->env->loadTemplate("_footer.twig")->display($context);
     }
 
@@ -82,6 +83,6 @@ class __TwigTemplate_3e0dacd8a82536227bd66543bc53168b extends Twig_Template
 
     public function getDebugInfo()
     {
-        return array (  70 => 45,  32 => 11,  21 => 2,  19 => 1,);
+        return array (  71 => 46,  32 => 11,  21 => 2,  19 => 1,);
     }
 }

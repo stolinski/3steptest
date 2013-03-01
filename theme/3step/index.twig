@@ -11,6 +11,7 @@
         <h1 class="site-title">{{ app.config.general.sitename }}</h1>
         <div class="downloads">
             <a href="#" class="btn donationdl" id="donationdl">Download<br /><span>with donation</span></a>
+            <span class="or"><em>or</em></span>
             <a herf="#" class="btn freedl" id="freedl">Download<br /><span>for free</span></a>
         </div>
         <div class="paypal-form">
@@ -31,7 +32,7 @@
                 <div class="value">
                      <input value="5" type="radio" name="r" id="r3" onchange="enableTxt()" /><input placeholder="Enter Custom Amount" type="text" name="r" id="other" disabled="disabled" />
                 </div>
-                    <a id="donate" href="#">Donate</a>
+                    <a class="btn donationdl" id="donate" href="#">Donate &amp; Download</a>
             </div>
         </div>
     </div>

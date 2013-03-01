@@ -2,16 +2,14 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8248",
   "files" : {
-    "\/images\/header_3.jpg" : {
+    "\/stylesheets\/foundation.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/header_3.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/header_3.jpg",
-      "initialSize" : 123143,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/stylesheets\/foundation.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/javascripts\/jquery-1.9.1.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -33,17 +31,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/javascripts\/modernizr.foundation.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/modernizr.foundation.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/modernizr.foundation-ck.js",
-      "fileType" : 64
-    },
     "\/stylesheets\/app.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -55,6 +42,17 @@
       "outputAbbreviatedPath" : "\/stylesheets\/app.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/javascripts\/modernizr.foundation.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/modernizr.foundation.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/modernizr.foundation-ck.js",
+      "fileType" : 64
     },
     "\/stylesheets\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -68,6 +66,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/images\/linedpaper.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/linedpaper.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/linedpaper.png",
+      "initialSize" : 77595,
+      "fileType" : 8192
+    },
     "\/javascripts\/app.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -77,28 +86,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/javascripts\/app-ck.js",
-      "fileType" : 64
-    },
-    "\/javascripts\/script.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/script.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/script-ck.js",
-      "fileType" : 64
-    },
-    "\/javascripts\/jquery.foundation.topbar.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/jquery.foundation.topbar.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/jquery.foundation.topbar-ck.js",
       "fileType" : 64
     },
     "\/javascripts\/script-ck.js" : {
@@ -112,6 +99,28 @@
       "outputAbbreviatedPath" : "\/javascripts\/script-ck-ck.js",
       "fileType" : 64
     },
+    "\/javascripts\/jquery.foundation.topbar.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/jquery.foundation.topbar.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/jquery.foundation.topbar-ck.js",
+      "fileType" : 64
+    },
+    "\/javascripts\/script.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/script.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/script-ck.js",
+      "fileType" : 64
+    },
     "\/stylesheets\/app.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -121,14 +130,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/stylesheets\/foundation.css" : {
+    "\/images\/header_3.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/foundation.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/images\/header_3.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/header_3.jpg",
+      "initialSize" : 123143,
+      "fileType" : 4096
     }
   },
   "manualImportLinks" : [

@@ -2,6 +2,7 @@
 
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  background: url(../images/linedpaper.png);
 }
 
 
@@ -37,8 +38,9 @@ a:hover {
 .site-title {
   text-transform: uppercase;
   text-align: center;
+  font-size: 70px;
+  margin: 50px 0;
 }
-
 
 .downloads {
   text-align: center;
@@ -84,9 +86,14 @@ a:hover {
 
 .paypal-form {
   display: none;
+  margin:20px auto;
+  width:70%;
+  padding:20px;
+  background: white;
+  @include box-shadow(1px 1px 5px #999);
 }
 .donation-fields {
-  padding: 0 32%;
+  padding: 0 19%;
   .value {
   font-size:30px;
   margin:10px 0;

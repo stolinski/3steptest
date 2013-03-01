@@ -9,7 +9,7 @@ $(document).ready(function() {
 		return 45;
 	}
 	$('#donationdl').click(function() {
-		$('.paypal-form').slideToggle();
+		$('.paypal-form').slideDown();
 	});
 	$('#donate').click(function() {
 		var $val = $('.donation-fields input:checked').val();

@@ -1,5 +1,6 @@
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  background: url(../images/linedpaper.png); }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Condensed", sans-serif; }
@@ -25,7 +26,9 @@ a:hover {
 /*Main Area*/
 .site-title {
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  font-size: 70px;
+  margin: 50px 0; }
 
 .downloads {
   text-align: center; }
@@ -74,10 +77,16 @@ a:hover {
   box-shadow: 0px 4px 0 #999999, 0px 9px 36px rgba(255, 255, 255, 0.3) inset; }
 
 .paypal-form {
-  display: none; }
+  display: none;
+  margin: 20px auto;
+  width: 70%;
+  padding: 20px;
+  background: white;
+  -webkit-box-shadow: 1px 1px 5px #999999;
+  box-shadow: 1px 1px 5px #999999; }
 
 .donation-fields {
-  padding: 0 32%; }
+  padding: 0 19%; }
   .donation-fields .value {
     font-size: 30px;
     margin: 10px 0; }
